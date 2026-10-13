@@ -15,7 +15,7 @@ namespace Math {
         return BoundMap2(value, in1, in2, out1, out2);
     }
 
-    function BoundMap1 (input2: number, in1: number, in2: number, out1: number, out2: number) {
+    function BoundMap1 (value: number, in1: number, in2: number, out1: number, out2: number) {
         const inputMin = in1 < in2 ? in1 : in2;
         const inputMax = in1 > in2 ? in1 : in2;
         if (value < inputMin) value = inputMin;
