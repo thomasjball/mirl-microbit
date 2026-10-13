@@ -6,6 +6,7 @@ namespace Math {
      * @param fromHigh the upper bound of the value's current range, eg: 1023
      * @param toLow the lower bound of the value's target range
      * @param toHigh the upper bound of the value's target range, eg: 4
+     * Performs clipping if the value is outside the source range before mapping it to the target range.
      */
     //% weight=10 blockGap=8
     //% blockId=math_map_clip block="mapClip %value|from low %fromLow|high %fromHigh|to low %toLow|high %toHigh"
