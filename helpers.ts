@@ -6,7 +6,7 @@ namespace Math {
      * @param in2 the second bound on the input range
      * @param out1 the output value corresponding to in1
      * @param out2 the output value corresponding to in2
-     * Performs clipping if the value is outside the input range before mapping it to the output range.
+     * Performs clipping if the value is outside the input range
      */
     //% weight=10 blockGap=8
     //% blockId=math_bounded_map block="boundedMap %value|from %in1:%in2 to %out1:%out2"
