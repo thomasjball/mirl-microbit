@@ -12,6 +12,7 @@ namespace MIRL {
     //% weight=10 blockGap=8
     //% blockId=math_bounded_map block="boundedMap %value|from %in1:%in2 to %out1:%out2"
     //% inlineInputMode=inline
+    //% group="Experiences"
     export function boundedMap(value: number, in1: number, in2: number, out1: number, out2: number): number {
        return Math.constrain(Math.map(value, in1, in2, out1, out2), Math.min(out1, out2), Math.max(out1, out2))
     }
