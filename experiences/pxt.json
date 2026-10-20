@@ -10,7 +10,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "simpleservo": "github:kitronikltd/pxt-kitronik-simple-servo"
     },
     "testDependencies": {}
 }
