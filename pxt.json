@@ -1,8 +1,7 @@
 {
-    "name": "my-project",
+    "name": "MIRL micro:bit extensions",
     "version": "0.0.4",
     "files": [
-        "helpers.ts"
     ],
     "supportedTargets": [
         "microbit"

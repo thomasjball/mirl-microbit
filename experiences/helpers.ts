@@ -1,4 +1,5 @@
-namespace Math {
+//% color=#0fbc11 icon="" block="MIRL"
+namespace MIRL {
 /**
      * Re-maps a number between ranges whose endpoints may be in either order.
      * @param value value to map in ranges

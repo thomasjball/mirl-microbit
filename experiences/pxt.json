@@ -1,0 +1,16 @@
+{
+    "name": "Micro:bit Experiences",
+    "version": "0.0.4",
+    "files": [
+        "helpers.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*"
+    },
+    "testDependencies": {}
+}
